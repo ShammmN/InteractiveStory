@@ -1,0 +1,14 @@
+body{
+    color:#323d62;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: meduim;
+    background-color:#9094a0;
+}
+img{
+
+    display: inline-block;
+    width: 200px;
+    border-color: #706e7e;
+    margin-left:auto;
+    margin-right: auto;
+}
