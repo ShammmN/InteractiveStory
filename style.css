@@ -5,32 +5,35 @@ Main Brand Color: #d8c8a8;
 Dark Accent: #8d1e2e;
 Dark Shades: #613426;
 */
-
+/*  styles the body tag in html with basic color, font, style, and text alignment*/
 body{
-
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;
     background-color:#d8c8a8;
     text-align: center;
 }
+/* styles the header or the title of the website with a different font color to show its the title */
 h1{
     color:#613426;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;
     text-align: center;
 }
+/*  styles the p tag with basic styling like text color and size */
 p{
     color:#8d1e2e;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;
     text-align: center;
 }
+/*  styles the extratext tag with basic styling like text color and makes the size smaller to fit what the story needs */
 .extratxt{
     color:#8d1e2e;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
     text-align: center;
 }
+/*  styles the user input box with basic styling like text color and size to fit the theme of the website */
 input{
     background-color: #a78f63;
     border: none;
@@ -42,19 +45,21 @@ input{
     font-size: 16px;
     font-weight: 600;
 }
+/*  styles the image with basic sizing to fit the website*/
 img{
-
     display: inline-block;
     width: 600px;
     border-color: #706e7e;
     margin-left:auto;
     margin-right: auto;
 }
+/*  styles the image class which is the div tag in order to center the image */
 .image{
     display:flex;
     justify-content: center;
     align-items: center;
 }
+/*  styles the buttons with basic styling like color, sizing, and centers them to fit the website theme */
 button{
     background-color: #a78f63;
     border: none;
@@ -66,22 +71,25 @@ button{
     font-size: 16px;
     font-weight: 600;
 }
+/*  styles the recipe list with basic styling like text color and size */
 ul{
     color:#8d1e2e;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;
     text-align: center;
 }
+/*  styles the lines with missing words differently to make them pop more */
 .word{
     color:#613426;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;
     text-align: center;
 }
+/*  this makes the button color change when user hovers over it to help user in button clicking */
 button:hover{ 
     color: #8d1e2e;
 }
-
+/* makes website fit any type of device that accesses it */
 @media screen and (max-width: 600px){
     .column{
         width:100%;

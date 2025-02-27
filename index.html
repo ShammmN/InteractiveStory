@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- This is the basic set up for html-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PayTheBillGame</title>
-    <link rel="stylesheet" href="./style.css"> 
+    <title>PayTheBillGame</title>  <!-- Names the the website link-->
+    <link rel="stylesheet" href="./style.css"> <!-- Links the style file to the document so it can intake the css styling-->
 
 </head>
 <body>
-    <h1>Pay the Bill</h1>
-    <div class ="image">
-        <img src="https://hotpotmedia.s3.us-east-2.amazonaws.com/8-V5kndewbeNZ71zf.png" id="imgg">
+    <h1>Pay the Bill</h1> <!-- Gives my website a header/title-->
+    <div class ="image"> <!-- Puts image into a div tag and gives it a class to be able to call it in css to make the image centered  -->
+        <img src="https://hotpotmedia.s3.us-east-2.amazonaws.com/8-V5kndewbeNZ71zf.png" id="imgg"> <!-- puts the actual image tag with a starter image that the user sees first and an id tag to be able to call it in JS-->
     </div>
-    <br>
-    <ul id = "recipe">   
+    <br> <!-- Breaks the page after the image so it doesnt mess with the styling and look-->
+    <ul id = "recipe">    <!-- puts the recipe into a list with an id to call in JS so the recipe can be shown as a list-->
         <li>12 inch italian 4-grain bread</li>
-        <li class="word">6 buffalo c____ tenders</li>
+        <li class="word">6 buffalo c____ tenders</li> <!-- gives the lines with missing words a class to call in css so it can be styled differently-->
         <li>4 slices of chipotle gouda cheese</li>
         <li>Cup of lettuce</li>
         <li>¼ cup of onions</li>
         <li>¼ cup garlic and dill pickles</li>
-        <li class="word">¼ cup of g___ peppers</li>
+        <li class="word">¼ cup of g___ peppers</li> <!-- gives the lines with missing words a class to call in css so it can be styled differently-->
         <li>1 tbsp of mayo</li>
         <li>1 tbsp of chipotle mayo</li>
         <li>Chips</li>
     </ul> 
-    <br>
-    <p id="begintxt"> 
+    <br> <!-- add a break to seperate them for cleaner look-->
+    <p id="begintxt">  <!-- creates a paragraph with an id to call when js needs to output text to the website-->
     </p>
-    <p id ="extratxt" class="extratxt"></p>
-    <input type= "text"id ="userin">
+    <p id ="extratxt" class="extratxt"></p> <!-- creates a paragraph with an id to call when js needs to output text to the website-->
+    <input type= "text"id ="userin"> <!--This calls for the user input and is in an id to be bale to use in js-->
+     <!--All buttons with different ids to call them each when needed in js-->
     <button type="submit" id = "button1">button1</button>
     <button type="submit" id = "button2">button2</button> 
     <button type="submit" id = "button3">button1</button>
     <button type="submit" id = "button4">button2</button>
 
-    <script src="story.js" defer></script>
+    <script src="story.js" defer></script> <!-- links the js file to the html so it can intake the js code-->
 </body>
-</html>
+</html> <!-- ends the html-->
