@@ -10,6 +10,13 @@ const begin = document.getElementById("begin");
 const imgg = document.getElementById("imgg");
 const recipe =document.getElementById("recipe");
 
+//setting up background audio
+const kicthensounds = new Audio("restaurant-ambience-24720.mp3") //calls the audio clip and assigns it a variable
+kicthensounds.loop = true; //keeps the sound playing over and over as the website is up
+window.addEventListener("click", () =>{ //adds an event listener to play audio when the user clicks anywhere on the website
+    kicthensounds.play().catch(error => console.log("Autoplay prevented:", error)) //plays the audio 
+}, {once: true}) //as soon as it is true it plays
+
 userin.style.display ="none" //hides user input because it is not needed will unhide when needed
 
 //this is a function to hide both of the buttons I can use whenever there are no options for user to click
