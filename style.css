@@ -25,6 +25,23 @@ p{
     font-size: xx-large;
     text-align: center;
 }
+.extratxt{
+    color:#8d1e2e;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-align: center;
+}
+input{
+    background-color: #a78f63;
+    border: none;
+    color: #613426;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+}
 img{
 
     display: inline-block;
@@ -64,6 +81,7 @@ ul{
 button:hover{ 
     color: #8d1e2e;
 }
+
 @media screen and (max-width: 600px){
     .column{
         width:100%;
